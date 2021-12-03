@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    background-size: cover;
+}
+li,a,button{
+    font-family: "montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(224, 221, 24);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+}
+.logo{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-right: auto;
+}
+.navbar{
+    list-style: none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.navbar li a{
+    transition: all 0.1s ease 0s;
+}
+.navbar li a:hover{
+    color: chartreuse;
+
+}
+button{
+    padding: 9px 25px;
+    background-color: rgb(25, 49, 128);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+
+}
+button:hover{
+    background-color: chocolate;
+    padding-top: 5px;
+    transition-duration: 0.2s;
+    padding-bottom: 5px;
+}
+.nav{
+    background: rgb(65, 66, 68);
+    height: 1%;
+    /* position: absolute; */
+    width: 80%;
+    opacity: 1;
+    position: sticky;
+    top: 0;
+}
+.cta{
+    position: absolute;
+    left: 90%;
+}
+.sera{
+    display: flex;
+}
+.sr1{
+    width: 390px; 
+    height: 70%;
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+.mar{
+    text-align: center;
+
+}
+#contact{
+    margin-top: 150px;
+    border:1px solid black;
+    margin-right: 1100px;
+    padding: 200px;
+    margin-left: 50px;
+
+}
+#about{
+    margin-top: 150px;
+   border: 1px solid black;
+   margin-right: 1100px;
+   padding: 200px;
+   margin-left: -900px;
+   
+}
+.foot{
+    display: flex;
+}
+.sera p{
+    font-weight:0;
+}
